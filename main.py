@@ -3,7 +3,10 @@ import time
 import logging
 import pickle
 import threading
+
 print("server")
+def prints(s):
+	print("Простой эхо сервер")
 def prog():
 	logging.info(f"Подключение клиента {addr}")
 	print(addr[0])
