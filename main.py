@@ -3,7 +3,8 @@ import time
 import logging
 import pickle
 import threading
-def prints():
+
+def prints(s):
 	print("Простой эхо сервер")
 
 def prog():
